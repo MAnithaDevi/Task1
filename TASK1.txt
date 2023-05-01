@@ -1,0 +1,35 @@
+TASK1
+
+1. The most common protocol used to communicate between clients and servers on the internet is HTTP (Hypertext Transfer Protocol). It makes data and information transfer between website clients and server easier. HTTP has undergone a number of improvements, the most recent being HTTP2. the main differences between HTTP1.1 and HTTP2 are,
+	
+	http1.1 - Since it is a text-based protocol, both requests and responses are sent as plain text. Each request made using HTTP 1.1 is sent over a separate connection, resulting in the setup of a new connection for every request made as well as every answer received. This may not be efficient because creating connections requires more time and resources than just opening and closing them.
+Another issue with HTTP1.1 is a condition called "head-of-line blocking," in which the transmission of one slow request prevents the transmission of all other requests. This may result in a slower website load time and a less satisfying user experience.
+
+
+	http2- In 2015, HTTP2, which will replace HTTP1.1, was released. It is more effective than HTTP1.1 since it is a binary protocol, which implies that requests and responses are sent in binary format. Multiple requests and responses may be transmitted and received over a single connection using the "multiplexing" technique used by HTTP2. This reduces the overhead of opening and closing numerous connections because a single connection can handle multiple requests and responses simultaneously.it also prohibits the issues like "head-of-lineblocking".  HTTP2's server push feature is an additional important improvement. With the use of this functionality, the server is able to provide the client resources such as images, CSS, and JavaScript files before the client even asks them. The client doesn't have to wait for the server to provide these resources individually, which can heavily speed up page loading.
+
+
+
+
+2. Javascript is a popular object-oriented programming language for creating interactive online applications. As a fundamental component of Javascript, objects give you a way to group data and behaviour into reusable units. 
+Objects in Javascript are collections of key-value pairs, where the values can be any legal Javascript data type, such as numbers, texts, arrays, and even other objects. The keys are referred to as properties. Real-world entities like a user, an automobile, or a product are represented by objects.
+For example, suppose we want to represent a car in Javascript. Then, by giving each property a value and creating an object, we can specify its make, model, year, and colour, for example.
+
+const car = {
+  make: "Toyota",
+  model: "Camry",
+  year: 2021,
+  color: "Black"
+};
+
+
+By doing this, a new object named car is created with the four properties make, model, year, and colour, each of which is given a value.
+
+
+
+
+
+
+
+
+
